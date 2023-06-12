@@ -114,7 +114,7 @@ h3{
 }
 .hero-section {
 	padding: 50px 0;
-	min-height: 700px;
+	min-height: 600px;
 	display: flex;
 	align-items: flex-end;
 	position: relative;
@@ -122,6 +122,7 @@ h3{
 }
 .h-card-text {
 	text-align: center;
+	margin-bottom: 20px;
 }
 .h-card-text h1 {
 	color: white;
@@ -209,8 +210,7 @@ h3{
 	height: 20px;
 	filter: brightness(0);
 }
-.p-text li {
-}
+
 .p-text h5 {
 	padding: 10px 0px;
 	font-family: 'Roboto';
@@ -263,10 +263,6 @@ h3{
 	border-radius: 50px;
 	padding: 10px 20px;
 }
-.bbtn.bbtn-none:hover {
-	color: white;
-	background: black;
-}
 .program-button {
 	display: flex;
 	gap: 15px;
@@ -277,7 +273,7 @@ h3{
 	box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, .1);
 }
 .service-sectoion {
-	padding: 100px 0;
+	padding: 0 0 100px 0;
 }
 .searvice-card li {
 	padding: 16px;
@@ -290,7 +286,7 @@ h3{
 	border: 0;
 }
 .searvice-card {
-	padding: 60px 20px;
+	padding: 29px 20px;
 	background: #F8F8F9;
 	border-radius: 20px;
 }
@@ -338,9 +334,6 @@ h3{
 	margin: 20px 0;
 	position: relative;
 }
-.searvice-card2 a:hover{
-	color: white;
-}
 .searvice-card3 img {
 	object-fit: cover;
 	border-radius: 20px;
@@ -371,7 +364,7 @@ h3{
 }
 .service-sectoion .col-lg-3.col-md-6 .searvice-card3:hover {
 	box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, .1);
-
+}
 /* .searvice-card3:hover{
 	transform: scale(1.1);
 	transition: .5s;
@@ -380,10 +373,6 @@ h3{
 	overflow: hidden;
 } */ */
 
-
-.success-section {
-	padding: 100px 0;
-}
 .success-section {
 	padding: 100px 0;
 }
@@ -392,7 +381,7 @@ h3{
 	border-radius: 12px;
 	border: none;
 	transition: .5s;
-	padding: 10px 33px;
+	padding-left: 42px;
 }
 	 
 .button-wrapper .bbtn a{
@@ -404,7 +393,7 @@ h3{
 .button-wrapper a::before {
 	content: "\f005";
 	position: absolute;
-	left: 7px;
+	left: 15px;
 	font-family: var(--fa-style-family,"Font Awesome 6 Free");
 	top: 8px;
 }
@@ -420,6 +409,8 @@ h3{
 	margin: auto;
 	gap: 19px;
 	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
 }
 /* .success-card {
 	text-align: center;
@@ -616,10 +607,12 @@ h3{
 .service-card-text {
 	position: absolute;
 	bottom: 20px;
-	left: 72px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 147px;
 }
 .enrollment-section {
-	padding: 100px 0;
+	padding: 50px 0 100px 0;
 }
 .recent-card h3 {
 	font-size: 24px;
@@ -641,14 +634,15 @@ h3{
 .recent-card {
 	background: #F8F8F9;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
 	border-radius: 20px;
+	max-width: 435px;
+	margin: auto auto 30px auto;
 }
 .recent-card:hover {
 	box-shadow: 0px 70px 50px -10px rgba(0, 0, 0, 0.07);
 }
 .recently-blog {
-	padding: 50px 0 100px 0;
+	padding: 30px 0 100px 0;
 }
 h3 a {
 	color: black;
@@ -678,7 +672,7 @@ h3:hover a {
 }
 .text-center {
 	text-align: center !important;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .footer-section{
 	padding: 50px 0 100px 0;
@@ -686,6 +680,7 @@ h3:hover a {
 }
 .footer-widget-about {
 	max-width: 420px;
+	margin-bottom: 30px;
 }
 .footer-widget-about p {
 	font-family: 'Roboto';
@@ -759,6 +754,7 @@ p{
 }
 .footer-widget-menu li {
 	position: relative;
+	padding-left: 20px;
 }
 .footer-widget-menu li::before {
 	content: "";
@@ -766,13 +762,176 @@ p{
 	height: 8px;
 	width: 8px;
 	top: 7px;
-	left: -15px;
+	left: 0px;
 	transform: rotate(45deg);
 	position: absolute;
 }
 .recent-card img {
 	width: 100%;
 }
+.copy-card {
+	max-width: 528px;
+	margin: auto;
+	display: flex;
+	text-align: center;
+}
+.copy-right {
+	padding: 30px 0 30px 0;
+	border-top: 1px solid rgba(23, 36, 48, .15);
+}
+/* js jas         js     ja                 js          js               js         js       js */
+
+.owl-dots button {
+	height: 10px;
+	width: 10px;
+	background: white !important;
+	margin: 7px;
+	border-radius: 50%;
+}
+.owl-dot.active {
+	background: var(--primary ) !important;
+}
+.owl-dots {
+	position: absolute;
+	bottom: 27px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.owl-nav {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.owl-nav svg {
+	color: white;
+	height: 50px;
+	width: 50px;
+	background: #172430;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+
+
+/* program card */
+.p-input-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+.program-h-text h5 {
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--primary);
+}
+.program-h-text {
+	max-width: 450px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.program-h-text h2 {
+	color: #172430;
+	font-family: Roboto;
+	font-size: 38px;
+	font-weight: 700;
+}
+.program-h-text p {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+}
+.program-h-text span {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.program-wrapper {
+	margin: 60px 0 20px 0;
+}
+.additional-section{
+	padding: 100px 0;
+}
+#myTab {
+	justify-content: space-around;
+}
+.additional-section #myTab {
+	justify-content: space-around;
+}
+.additional-section #myTab {
+	justify-content: space-around;
+}
+.additional-section #home-tab {
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.additional-section #profile-tab {
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.additional-section .accordion-body ul li {
+	padding: 7px 0;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+	padding-left: 20px;
+}
+li::before {
+	content: "";
+	background: #515A60;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	left: 0px;
+	top: 12px;
+	border-radius: 50%;
+}
+.additional-section .accordion-button.collapsed {
+	font-size: 18px;
+	font-weight: 400;
+}
+.additional-card {
+	margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -806,6 +965,25 @@ p{
 	.footer-widget-menu {
 		margin-top: 30px;
 	}
+	.hero-section {
+		min-height: 640px;
+	}
+	.date-wrapper {
+		margin-bottom: 20px;
+	}
+	.recently-blog {
+		padding: 30px 0 70px 0 !important;
+	}
+	.program-h-text h2 {
+		font-size: 33px;
+	}
+	.program-h-text p {
+		font-size: 16px;
+	}
+	.program-h-text {
+		gap: 15px;
+	}
+	
 }
 @media all and (max-width:567px){
 	.menu-section {
@@ -817,14 +995,23 @@ p{
 	.h-card-text p {
 		font-size: 19px;
 	}
-	.hero-section {
-		min-height: 640px;
-	}
+	
 	.p-title p {
 		padding-bottom: 15px !important;
 	}
-
+	.hero-section {
+		min-height: 350px;
+	}
 	.p-title h1 {
 		padding-bottom: 15px !important;
+	}
+	.footer-section {
+		padding: 50px 0 50px 0;
+		background: #F8F8F9;
+	}
+	.recent-card h3 {
+		font-size: 20px;
+		padding: 17px 20px;
+		line-height: 27px;
 	}
 }
