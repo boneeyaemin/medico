@@ -21,9 +21,10 @@
 <div class="header-top-section ">
     <div class="container">
         <div class="h-t-wrapper">
-            <div class="h-t-logo">
-                <img src="assets/img/Group 13814.svg" alt="">
-            </div>
+            <a href="index.html">
+                <div class="h-t-logo">
+                    <img src="assets/img/Group 13814.svg" alt="">
+                </div>
             <div class="h-t-icon">
                 <a href="">
                     <i class="fa-brands fa-facebook-f"></i>
@@ -59,13 +60,15 @@
                     <a href="">হোম</a>
                     <a href="">Founder & CEO মেসেজ</a>
                     <a href="">প্রোগ্রামসমূহ</a>
-                    <a href="">শাখাসমূহ</a>
+                    <a href="branch-list.html">শাখাসমূহ</a>
                     <a href="">আমাদের নিয়ে কিছু কথা</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
+
+
 
 <!-- program hero section -->
 
@@ -92,7 +95,11 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/img/program.png" alt="">
+                    <div class="program-slider owl-carousel">
+                        <img src="assets/img/program.png" alt="">
+                        <img src="assets/img/program.png" alt="">
+                        <img src="assets/img/program.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,7 +153,7 @@
                                 <div class="accordion-body">
                                     <div class="row">
                                         <div class="col-md-6">
-                                           
+                                           <img src="assets/img/nothing.png" alt="">
                                         </div>
                                         
                                     </div>
@@ -158,23 +165,25 @@
                     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="additional-card">
-                                    <img src="assets/img/addintional-photo.png" alt="">
+                                <div class="additional-wrapper">
+                                    <div class="additional-card">
+                                        <img src="assets/img/addintional-photo.png" alt="">
+                                        <div class="none" >
+                                            <a class="bbtn pdf btn-one " href=""data-bs-target="#mahin"data-bs-toggle="modal">Admission</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="additional-card">
-                                    <img src="assets/img/addintional-photo.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="additional-card">
-                                    <img src="assets/img/addintional-photo.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="additional-card">
-                                    <img src="assets/img/addintional-photo.png" alt="">
+                                <div class="additional-wrapper">
+                                    <div class="additional-card">
+                                        <img src="assets/img/addintional-photo.png" alt="">
+                                        <div class="none nantu" >
+                                            <a class="button-56" href="" data-bs-target="#mahin" data-bs-toggle="modal">
+                                                BooK
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +329,7 @@
 
 <!-- start a new section nemed footer section -->
 
-<!-- <div class="footer-section">
+<div class="footer-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -375,23 +384,34 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 <!-- copy right section -->
 
-<!-- <div class="copy-right">
+<div class="copy-right">
     <div class="container">
         <div class="copy-card">
             <p>Copyright © Medico Academic & Admission Care. All rights reserved. 2023</p>
         </div>
     </div>
-</div> -->
+</div>
 
-
-
-
-
-
+<div class="modal" id="mahin">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-bs-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <embed src="assets/nuzhatul-kari.pdf" type="application/pdf">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
