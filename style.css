@@ -1264,6 +1264,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 480px;
 	position: relative;
 	margin: auto;
+	max-width: 900px;
 }
 .block-hero img {
 	height: 100%;
@@ -1280,6 +1281,8 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	max-width: 750px;
+	margin: auto;
 }
 .b-details-section {
 	padding: 20px 10px;
@@ -1296,10 +1299,16 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	color: white;
 	left: 0;
-	top: -9px;
+	top: -4px;
 	background: var(--primary);
-	padding: 15px;
+	padding: 11px;
 	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .b-details-wrapper li::before {
 	content: "";
@@ -1324,6 +1333,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .recentlt-section {
 	padding-top: 80px;
+}
+.b-details-wrapper p {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	color: #515A60;
 }
 
 
